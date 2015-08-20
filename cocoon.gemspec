@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Nathan Van der Auwera"]
-  s.date = "2014-03-18"
+  s.date = "2015-08-20"
   s.description = "Unobtrusive nested forms handling, using jQuery. Use this and discover cocoon-heaven."
   s.email = "nathan@dixis.com"
   s.extra_rdoc_files = [
@@ -80,7 +80,7 @@ Gem::Specification.new do |s|
   ]
   s.homepage = "http://github.com/nathanvda/cocoon"
   s.licenses = ["MIT"]
-  s.rubygems_version = "2.2.1"
+  s.rubygems_version = "2.4.6"
   s.summary = "gem that enables easier nested forms with standard forms, formtastic and simple-form"
 
   if s.respond_to? :specification_version then
@@ -91,8 +91,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<sqlite3>, [">= 0"])
       s.add_development_dependency(%q<json_pure>, [">= 0"])
       s.add_development_dependency(%q<jeweler>, [">= 0"])
-      s.add_development_dependency(%q<rspec-rails>, [">= 2.8.0"])
-      s.add_development_dependency(%q<rspec>, [">= 2.8.0"])
+      s.add_development_dependency(%q<rspec-rails>, [">= 0"])
       s.add_development_dependency(%q<actionpack>, [">= 4.0.0"])
       s.add_development_dependency(%q<simplecov>, [">= 0"])
       s.add_development_dependency(%q<nokogiri>, [">= 0"])
@@ -108,8 +107,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<sqlite3>, [">= 0"])
       s.add_dependency(%q<json_pure>, [">= 0"])
       s.add_dependency(%q<jeweler>, [">= 0"])
-      s.add_dependency(%q<rspec-rails>, [">= 2.8.0"])
-      s.add_dependency(%q<rspec>, [">= 2.8.0"])
+      s.add_dependency(%q<rspec-rails>, [">= 0"])
       s.add_dependency(%q<actionpack>, [">= 4.0.0"])
       s.add_dependency(%q<simplecov>, [">= 0"])
       s.add_dependency(%q<nokogiri>, [">= 0"])
@@ -126,8 +124,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<sqlite3>, [">= 0"])
     s.add_dependency(%q<json_pure>, [">= 0"])
     s.add_dependency(%q<jeweler>, [">= 0"])
-    s.add_dependency(%q<rspec-rails>, [">= 2.8.0"])
-    s.add_dependency(%q<rspec>, [">= 2.8.0"])
+    s.add_dependency(%q<rspec-rails>, [">= 0"])
     s.add_dependency(%q<actionpack>, [">= 4.0.0"])
     s.add_dependency(%q<simplecov>, [">= 0"])
     s.add_dependency(%q<nokogiri>, [">= 0"])

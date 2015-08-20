@@ -6,8 +6,7 @@ group :development, :test do
   gem "sqlite3"
   gem "json_pure"
   gem "jeweler"
-  gem "rspec-rails", ">= 2.8.0"
-  gem "rspec",       ">= 2.8.0"
+  gem "rspec-rails"
   gem "actionpack",  ">=4.0.0"
   gem "simplecov", :require => false
 
