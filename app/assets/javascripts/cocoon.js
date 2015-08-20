@@ -84,7 +84,9 @@
 
     e.preventDefault();
 
-    trigger_node.trigger('cocoon:before-remove', [node_to_delete]);
+    var options = { prevent: false };
+    trigger_node.trigger('cocoon:before-remove', [node_to_delete, options]);
+    if (options.prevent) return;
 
     var timeout = trigger_node.data('remove-timeout') || 0;
 
